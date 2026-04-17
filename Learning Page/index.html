@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder Army</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Learn DSA For Free from Coder Army</h1>
+        <nav>
+            <ol>
+                <li><a href="#intro">C++ Introduction</a></li>
+                <li><a href="#compiler">C++ Compiler</a></li>
+                <li><a href="#array">Array</a></li>
+                <li><a href="#tree">Tree</a></li>
+                <li><a href="#graph">Graph</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Introduction to C++</h2>
+            <p color="black">C++ is a powerful, high-performance, general-purpose programming language. Developed by Bjarne Stroustrup at Bell Labs in 1979, it was originally called "C with Classes"</p>
+            <h3>Features of C++</h3>
+            <ul>
+                <li>Fast Execution: As a compiled language, C++ code is converted directly into machine code for near-native performance.</li>
+                <li>Direct Hardware Access: Provides Pointers to interact directly with memory addresses.</li>
+                <li>Object-Oriented Programming (OOP): Focuses on "objects" and "classes" to model real-world problems.</li>
+                <li>Generic Programming: Uses Templates to write code that works with any data type without duplication.</li>
+                <li>Standard Template Library (STL): Provides a collection of reusable components for common data structures and algorithms.</li>
+            </ul>
+
+            <h3>Basic Syntax</h3>
+            <img src="syntax.png" alt="C++ Syntax">
+            <ul>
+                <li> #include <iostream> is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.</li>
+                <li>using namespace std means that we can use names for objects and variables from the standard library.</li>
+                <li>A blank line. C++ ignores white space. But we use it to make the code more readable.</li>
+                <li>Another thing that always appear in a C++ program is int main(). This is called a function. Any code inside its curly brackets {} will be executed.</li>
+                <li>cout (pronounced "see-out") is an object used together with the insertion operator (<<) to output/print text. In our example, it will output "Hello World!".</li>
+            </ul>
+        </section>
+
+        <section id="compiler">
+            <h2>Online C++ Compiler</h2>
+            <iframe src="https://onecompiler.com/cpp" frameborder="0" height="600" width="100% " title="Online C++ Compiler" ></iframe>
+        </section>
+        <section id="array">
+            <h2>Introduction to Arrays</h2>
+            <h3>What is an Array?</h3>
+            <p>An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.</p>
+            <img src="array.png" alt="array in C++">
+            <h3>Characteristics of Arrays</h3>
+            <ul>
+                <li>Fixed Size: The size of an array must be defined at the time of declaration and cannot be changed later.</li>
+                <li>Homogeneous Elements: All elements in an array must be of the same data type.</li>
+                <li>Contiguous Memory: Elements are stored in contiguous memory locations, allowing for efficient access.</li>
+                <li>Zero-Based Indexing: The first element of an array is accessed with index 0, the second with index 1, and so on.</li>
+                </ul>
+
+            <h3>Types of Arrays</h3>
+            <ol>
+                <li>One-Dimensional Array:A linear list of elements stored in contiguous memory. Each element is accessed using a single index. 
+                    <ul>
+                        <li>Example: int marks[5] = {90, 85, 77, 92, 88};</li>
+                    </ul>
+                </li>
+                <li>Multi-Dimensional Array: An array of arrays, where each element is itself an array. This allows for the representation of data in a tabular form.
+                    <ul>
+                        <li>Example: int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};</li>
+                    </ul>
+                </li>
+                <li>The size is determined at runtime and can be adjusted (grown or shrunk). </li>
+            </ol>
+
+            <h2>Tutorial for Arrays</h2>
+
+            <table>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/9_B6TmAHveU" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/V3vM_m2iFtk" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/YpZUgiT1N94" frameborder="0" height="250" width="400"></iframe></td>
+                </tr>
+                <tr>
+                  <td><iframe src="https://www.youtube.com/embed/567332frcF0" frameborder="0" height="250" width="400"></iframe></td>
+                  <td><iframe src="https://www.youtube.com/embed/CaLtCuji8z0" frameborder="0" height="250" width="400"></iframe></td>
+                  <td><iframe src="https://www.youtube.com/embed/w2HOAYymS3A" frameborder="0" height="250" width="400"></iframe></td>
+                </tr>
+            </table>
+        </section>
+        <section id="tree">
+            <h2>Introduction to Trees</h2>
+            <p>Tree Data Structure is a non-linear data structure in which a collection of elements known as nodes are connected to each other via edges such that there exists exactly one path between any two nodes.</p>
+            <img src="tree.webp" alt="">
+            <h3>Characteristics of Trees</h3>
+            <ul>
+                <li>Hierarchical Layout: Organizes data across multiple levels instead of a sequential line.</li>
+                <li>Root Node: The single topmost node that has no parent and acts as the entry point.</li>
+                <li>Parent-Child Bond: Every node (except the root) has exactly one parent node, while a parent can have multiple child nodes.</li>
+                <li>No Cycles: A tree is a connected graph with no loops; there is exactly one path between any two nodes.</li>
+                <li>Recursive Nature: Each node in a tree can be viewed as the root of its own smaller tree, called a subtree.</li>
+            </ul>
+            <h3>Types Of Trees</h3>
+            <ol>
+                <li>Binary Tree: Nodes have at most two children.</li>
+                <li>Binary Search Tree (BST): Ordered binary tree.</li>
+                <li> AVL Tree: Self-balancing binary search tree.</li>
+                <li> Red-Black Tree: Self-balancing binary search tree with additional properties.</li>
+                <li> N-ary Tree: Each node can have at most n children.</li>
+            </ol>
+            <h3>Applications of Trees</h3>
+            <ul>
+                <li>File Systems: Operating systems use trees to organize files and folders. Each directory is a node that can contain sub-directories (children) and files (leaves).</li>
+                <li>Database Indexing: Databases use specialized trees like B-Trees and B+ Trees to store and retrieve large datasets from disks in time.</li>
+                <li>Compiler Design: Compilers use Abstract Syntax Trees (ASTs) and Expression Trees to parse source code, validate syntax, and evaluate mathematical expressions.</li>
+                <li>Network Routing: Routers use tree-based structures (like Tries) to store routing tables and perform fast IP prefix matching.</li>
+                <li>Document Object Model (DOM): Browsers represent HTML/XML pages as trees, where the <html> tag is the root and other elements are nested children.</li>
+            </ul>
+
+            <h2>Tutorial for Trees</h2>
+            <table>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/_b0bfpO3b4I" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/P30p5jYsiDc" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/f7IZ0IXLvhI" frameborder="0" height="250" width="400"></iframe></td>
+                </tr>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/z9GM2HB4mUk" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/wusLRj3XUdE" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/aBqPnkXmvpY" frameborder="0" height="250" width="400"></iframe></td>
+                </tr>
+            </table>
+        </section>
+        <section id="graph">
+            <h2>Introduction to Graphs</h2>
+            <p>In C++, a graph is a non-linear data structure consisting of vertices (nodes) and edges (connections). You can represent graphs in code using either an Adjacency List (for memory efficiency) or an Adjacency Matrix (for fast edge lookups). </p>
+            <img src="graph.webp" alt="graph in c++">
+            <h3>Characteristics of Graphs</h3>
+            <ul>
+                <li>Vertices (Nodes): The fundamental entities storing data (e.g., city names, user IDs).</li>
+                <li>Edges (Arcs): The lines connecting two vertices, representing a relationship.</li>
+                <li>Weights: Numerical values assigned to edges to represent cost, distance, or time. </li>
+                <li>Undirected Graph: Edges have no orientation; the connection is bidirectional (e.g., Facebook friendships).</li>
+                <li>Directed Graph: Edges have an orientation; the connection is unidirectional (e.g., web links).</li>
+            </ul>
+            <h3>Types of Graphs</h3>
+            <ol>
+                <li>Undirected Graph: Edges have no direction; the relationship is bidirectional ().</li>
+                <li>Directed Graph (Digraph): Edges have a specific direction, indicating a one-way relationship ().</li>
+                <li>Weighted Graph: Edges have weights assigned to them, representing costs or distances.</li>
+                <li>Unweighted Graph: Edges do not have weights assigned to them.</li>
+                <li>Connected Graph: There is a path between every pair of vertices.</li>
+                <li>Disconnected Graph: There are vertices that are not connected to the rest of the graph.</li>
+            </ol>
+        
+        <h3>Applications of Graphs</h3>
+        <ul>
+            <li>Social Networks: Platforms like Facebook use graphs where users are nodes and friendships are edges to suggest mutual friends.</li>
+            <li>Navigation & GPS: Google Maps represents road intersections as nodes and roads as edges to calculate the shortest path.</li>
+            <li>Web Crawling: Search engines view web pages as nodes and hyperlinks as edges to rank and index the internet.</li>
+            <li>Network Analysis: Graphs are used to analyze relationships in various domains, such as biology (protein interactions) or marketing (customer behavior).</li>
+        </ul>
+
+        <h2>Tutorial for Graphs</h2>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/gGlfzqPT-hE&" frameborder="0" height="250" width="400"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/bxbrUGvBCnY" frameborder="0" height="250" width="400"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/Vtu7qgF0ksw" frameborder="0" height="250" width="400"></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/oz1EaP_Bw4s" frameborder="0" height="250" width="400"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/2JgYwQ6TZ44" frameborder="0" height="250" width="400"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/esPlN86EpjJA" frameborder="0" height="250" width="400"></iframe></td>
+            </tr>
+        </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Learning Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
