@@ -1,0 +1,46 @@
+#div1{
+    background-color: green;
+}
+#secondid{
+    color: yellow;
+    font-size: medium;
+}
+
+#div2{
+    background-color: aliceblue;
+}
+#div3{
+    background-color: aliceblue;
+}
+#div4{
+    background-color: aliceblue;
+}
+
+#keytopic{
+    color: fuchsia;
+
+}
+#para1{
+    line-height: 30px;
+}
+#para2{
+    line-height: 30px;
+}
+#thirdid{
+    color: blue;
+}
+#javaf{
+    color: red;
+}
+#javar{
+    color: purple;
+}
+#rwd{
+    color: brown;
+}
+#footer{
+    font-weight: bold;
+}
+#thead{
+    background-color: cyan;
+}
