@@ -44,3 +44,17 @@ body{
 .card:hover p{
     color: black;
 }
+
+button{
+    color: black;
+    background-color: chocolate;
+    border-radius: 10px;
+    height: 5vw;
+    width: 5vw;
+    margin: 20px 20px 20px 47.5vw;   
+}
+button:hover{
+    transform: scale(0.9);
+    color: azure;
+    background-color: cadetblue;
+}
