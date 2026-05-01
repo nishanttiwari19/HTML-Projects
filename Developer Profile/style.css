@@ -58,3 +58,7 @@ button:hover{
     color: azure;
     background-color: cadetblue;
 }
+
+h1:hover{
+    transform: scale(1.3);
+}
