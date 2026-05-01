@@ -1,0 +1,31 @@
+.first, .third{
+    background-color: white;
+    display:inline-block;
+    width: 25vw;
+    height: 40vh;
+    
+}
+
+.second, .fourth{
+    background-color: white;
+    display:inline-block;
+    width: 60vw;
+    height: 40vh;
+
+}
+
+body{
+    background-color: blue;
+}
+
+*{
+    margin: 0;
+}
+
+.first, .third{
+    margin-top: 20vh;
+}
+
+.second, .fourth{
+    margin-left: 13.9vw;
+}
